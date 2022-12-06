@@ -4,12 +4,11 @@ public class lab1 {
 
   public static void main(String[] args) {
     Scanner console = new Scanner(System.in);
-    System.out.println("Please, enter 5 int digits:");
+    System.out.println("Please, enter 4 int digits:");
     int a = console.nextInt();
     int b = console.nextInt();
     int c = console.nextInt();
     int d = console.nextInt();
-    int e = console.nextInt();
     int small;
     if (a < b) {
       if (a < c) {
