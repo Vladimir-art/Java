@@ -6,6 +6,7 @@ public class lab1_4 {
     Scanner in = new Scanner(System.in);
     System.out.println("Enter a number of month: ");
     int month = in.nextInt();
+    in.close();
     if (month < 1 || month > 12) {
       System.out.printf("Enter number from 1 to 12");
       return;

@@ -10,6 +10,7 @@ public class lab1_2 {
     int b = in.nextInt();
     int c = in.nextInt();
     int d = in.nextInt();
+    in.close();
     int max;
     int count = 0;
     if (a >= b && a >= d && a >= c) max = a; else if (

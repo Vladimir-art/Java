@@ -9,6 +9,7 @@ public class lab1 {
     int b = console.nextInt();
     int c = console.nextInt();
     int d = console.nextInt();
+    console.close();
     int small;
     if (a < b) {
       if (a < c) {

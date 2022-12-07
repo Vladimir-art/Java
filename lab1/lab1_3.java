@@ -4,13 +4,13 @@ public class lab1_3 {
 
   public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
-
     System.out.println("Please, enter 5 int digits:");
     int a = in.nextInt();
     int b = in.nextInt();
     int c = in.nextInt();
     int d = in.nextInt();
     int e = in.nextInt();
+    in.close();
     int max, min;
     if (a < b) {
       if (a < c) {
