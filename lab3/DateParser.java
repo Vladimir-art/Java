@@ -11,7 +11,7 @@ public class DateParser {
     return;
   }
 
-  private static boolean isCorrectMonthAndDay(String str) {
+  private static boolean correctMonthAndDay(String str) {
     String[] splitDate = str.split("/");
     int day = Integer.parseInt(splitDate[0]);
     int month = Integer.parseInt(splitDate[1]);
@@ -44,7 +44,7 @@ public class DateParser {
       return;
     }
 
-    boolean isCorrectAmountDays = isCorrectMonthAndDay(s1);
+    boolean isCorrectAmountDays = correctMonthAndDay(s1);
 
     if (!isCorrectAmountDays) {
       showError(s1, "Not valid date: ", sc);
